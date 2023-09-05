@@ -1,5 +1,6 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
 
 :root {
     --main-color: #1a1a1a;
@@ -118,11 +119,13 @@ main p {
     width: 70%;
     margin: auto;
     text-align: center;
+    background-color: green;
 }
 
 .cards {
     margin-top: 35px;
     display: flex;
+    width:100%;
 }
 
 .card {
@@ -134,6 +137,8 @@ main p {
     width: 25%;
     background-color: white;
 }
+
+
 
 .card-title {
     text-transform: uppercase;
@@ -156,7 +161,8 @@ main p {
 
 .prg {
     text-align: left;
-    margin-top: 20px;
+    margin-top: 30px;
+    width:100%;
 }
 
 .p-1 {
@@ -178,38 +184,431 @@ main p {
 
 .info {
     background-color: var(--main-color);
-    margin: auto;
+    margin: auto; 
     text-align: center;
+    height: 240px;
 }
 
 .info2 {
     width: 70%;
     margin: auto;
     display: flex;
-    height: 70px;
+    height: 250px;
 }
 
 .completed {
-    box-sizing: content-box;
-    display: inline-block;
-    margin: 87px 16px 83px 16px;
-    width: 25%;
-    padding: 20px;
+    text-align: center;
+    margin-top: 87px;
+    margin-bottom: 83px;
     background-color: white;
+    margin-right: 16px;
+    margin-left: 16px;
+    width: 25%;
+    font-weight: bolder;
+    padding-bottom:60px;
+    padding-top:17px;
     text-transform: uppercase;
+    display: inline-block;
 }
+
+/* #portfolio a {
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--app-yellow);
+    color: #1b1b1b;
+    padding: 16px 37px;
+    padding-bottom: 21px;
+    margin-top: 53px;
+} */
 
 .num {
-    margin-top: 10px;
-    letter-spacing: 6px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-    font-size: 0.6em;
+    letter-spacing: 6px;
 }
 
-.word {
+.info .info2 .word {
     margin-top: 13px;
     letter-spacing: 3px;
+}
+
+
+#portfolio {
+    padding-top: 85px;
+    padding-bottom: 37px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+
+#title {
+    color: #1b1b1b;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+    font-size: 1.25em;
+    margin-top: 35px;
+}
+
+#caption {
+    font-size: 1em;
+    width: 40%;
+    color: #707070;
+    margin: auto;
+    margin-top: 45px;
+    line-height: 35px;
+}
+
+.cool {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.graphicweb {
+    margin-right: 67px;
+    margin-top: 107px;
+    /* margin-bottom: 109px; */
+    margin-left: 67px;
+    width: 470px;
+    height: 62px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px 0px;
+}
+
+.graphicweb p {
+    letter-spacing: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: small;
     font-weight: bolder;
-    margin-bottom:10px;
+    display: inline-block;
+}
+
+.shapeblack {
+    margin-bottom: 90px;
+    margin-top: 90px;
+    display: inline-block;
+}
+
+.developmentapp {
+    margin-right: 60px;
+    /* margin-bottom: 109px; */
+    margin-top: 107px;
+    margin-left: 67px;
+    width: 470px;
+    height: 62px;
+    border-style: solid;
+    border-width: 1px 0px;
+    display: inline-block;
+}
+
+.developmentapp p {
+    letter-spacing: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+#graphic {
+    margin-right: 200px;
+    margin-left: 50px;
+    width: 72px;
+}
+
+#dev {
+    margin-right: 170px;
+    margin-left: 45px;
+    width: 121px;
+}
+
+#web {
+    margin-right: 45px;
+}
+
+#app {
+    margin-right: 50px;
+}
+
+.full {
+    background-color: #ffe500;
+    height: 350px;
+    margin-top: 109px;
+    display: flex;
+}
+
+.fullpart1 {
+    display: inline-block;
+    height: 100%;
+    width: 16.67%;
+    background-color: #f4f4f4;
+    margin-right: 0px !important;
+}
+
+.fullpart2 {
+    display: inline-block;
+    height: 100%;
+    width: 16.67%;
+    background-color: var(--main-color);
+    margin-left: 0px !important;
+}
+
+.fullpart3 {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 16.67%;
+    padding-top: 51px;
+    padding-bottom: 39px;
+    background-color: #f4f4f4;
+    margin-left: 0px !important;
+    text-align: center;
+    position: relative;
+}
+
+.frame {
+    background-color: #2a2a2a;
+}
+
+.yellow {
+    height: 260px;
+    width: 220px;
+    background-color: #ffe500;
+    margin-left: 42px;
+    margin-right: 42px;
+    display: inline-block;
+}
+
+.text {
+    background-color: white;
+    width: 94%;
+    height: 54%;
+    /* z-index: 10%; */
+    margin: auto;
+    margin-top: 36px;
+    padding: 30px 20px;
+    position: absolute;
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    font-size: medium;
+    margin-top: 5px;
+}
+
+.con {
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 12px;
+    font-size: 0.8em;
+    line-height: 24px;
+    width: 92%;
+    color: #707070;
+
+}
+
+.fullpart4 {
+    background-color: var(--main-color);
+    display: inline-block;
+    height: 100%;
+    width: 16.67%;
+    margin-right: 0px !important;
+}
+
+.fullpart5 {
+    background-color: #f4f4f4;
+    display: inline-block;
+    height: 100%;
+    width: 16.67%;
+    margin-right: 0px !important;
+}
+
+.fullpart6 {
+    background-color: var(--main-color);
+    display: inline-block;
+    height: 100%;
+    width: 16.67%;
+    margin-right: 0px !important;
+}
+
+#portfolio a {
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--app-yellow);
+    color: #1b1b1b;
+    padding: 16px 37px;
+    padding-bottom: 21px;
+    margin-top: 53px;
+}
+
+.ourvideo {
+    background-color: var(--main-color);
+    height: 380px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 86px;
+}
+
+.video {
+    display: inline-block;
+    margin-top: 144px;
+    margin-bottom: 157px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding: 32px 46px;
+    color: #ffe500;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px 1px;
+}
+
+#team {
+    padding-top: 85px;
+    padding-bottom: 37px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+
+}
+
+#title1 {
+    color: #1b1b1b;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+    font-size: 1.25em;
+    margin-top: 35px;
+}
+
+#caption1 {
+    font-size: 1em;
+    width: 40%;
+    color: #707070;
+    margin: auto;
+    margin-top: 45px;
+    line-height: 35px;
+}
+
+.cards1 {
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+.card1 {
+    box-sizing: border-box;
+    box-shadow: 0 0 2px 2px lightgray;
+    display: inline-block;
+    margin: auto;
+    margin: 0 15px;
+    width: 25%;
+    background-color: var(--main-color);
+    padding-top: 290px;
+}
+
+.secname {
+    background-color: #ffe500;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 7px;
+    text-decoration: none;
+    background-color: var(--app-yellow);
+    color: #1b1b1b;
+    padding: 24px 37px;
+    padding-bottom: 25px;
+}
+
+.nametext {
+    padding: 25px 28px;
+    padding-bottom: 35px;
+    background-color: white;
+    line-height: 24px;
+    color: #707070;
+}
+
+.endofpage {
+    background-color: white;
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.fullyellow {
+    margin-bottom: 241px;
+    margin-top: 187px;
+    background-color: #ffe500;
+    width: 100%;
+    height: 210px;
+}
+
+.wordbox {
+    width: 568px;
+    background-color: var(--main-color);
+    color: #f4f4f4;
+    text-decoration: none;
+    text-align: left;
+    padding-top: 57px;
+    padding-left:76px;
+    padding-right:66px;
+    padding-bottom: 70px;
+    line-height: 24px;
+    position: absolute;
+    left: 376px;
+}
+
+/* .johnword{
+    padding:1px;
+    box-sizing: border-box;
+    position: relative;
+    color:#707070;
+    width:491px;
+    margin: auto;
+    margin-left:111px;
+    margin-top:56px;
+    margin-bottom:47px;
+    margin-right:468px;
+    align-self:normal;
+    background-color: white;
+} */
+
+.simplebox {
+    width: 568px;
+    position: absolute;
+    right: 300px;
+    box-sizing: border-box;
+    height: 375px;
+    background-color: var(--main-color);
+    margin-right: 0px;
+    margin-bottom:54px;
+    margin-left: 30px;
+    margin-top: 209px;
+}
+
+.footer{
+margin-top:54px;
+background-color: var(--main-color);
+height:385px;
+position: relative;
+
+}
+
+.about{
+    height:64%;
+    width:70%;
+    background-color: red;
+    margin:auto;
+    margin-top:85px;
 }
